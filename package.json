@@ -2,10 +2,11 @@
   "name": "actions-sonar-test",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "start": "node src/main.js"
   },
   "author": "",
   "license": "ISC",
