@@ -1,4 +1,4 @@
-const [isEven, isOdd] = require('../src/index')
+const [isEven, isOdd] = require('../src/index');
 
 test('2 must be even', () => {
     expect(isEven(2)).toBe(true);
